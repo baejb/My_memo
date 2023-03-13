@@ -11,15 +11,28 @@
     <h2 id="title">메모장</h2>
     <section id="main_container">
         <div class="contents">
-            <div class="memo">메모 공간</div>
+            <div class="showMemo">메모 공간</div>
             <button class="deleteBtn">X</button> 
         </div>
         <div class="contents">
-            <div class="memo">메모 공간</div> 
+            <div class="showMemo">메모 공간</div> 
             <button class="deleteBtn">X</button>
         </div>
-    </div>
     </section>
+    <section class="form__container">
+        <form action="" method="get" class="form">
+          <div class="form__input--wrapper">
+            <div class="form__memobox">
+              <label for="memo">메모를 작성하세요 !  </label>
+              <textarea id="memo" name="memo" placeholder="여기 작성" required></textarea>
+            </div>
+          
+          <div class="form__submit">
+            <input type="submit" value="submit">
+          </div>
+        </div>
+        </form>
+      </section>
 <script src="memo.js"></script>
 </body>
 </html>
